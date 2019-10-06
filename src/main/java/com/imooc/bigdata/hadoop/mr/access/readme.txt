@@ -13,3 +13,27 @@ access.log
     把手机号作为key，把access作为value写出去
 
     Reducer: (137262238888,<Access, Access, Access>)
+
+    public class HashPartitioner<K, V> extends Partitioner<K, V> {
+        public HashPartitioner() {
+        }
+
+        public int getPartition(K key, V value, int numReduceTasks) {
+            return (key.hashCode() & 2147483647) % numReduceTasks;
+        }
+    }
+    nunmReduceTasks:作业指定的reducer的个数，决定了reduce作业输出文件的个数
+    HashPartitioner 是mapreduce 默认的分区规则
+    reducer个数 ： 3
+    1 % 3  = 1
+    2 % 3 = 2
+    3 % 3 = 0
+
+    需求：将统计结果按照手机号的前缀进行区分，并输出到不同的输出文件中去
+
+    13 * => ..
+    15 * =>
+    other ==>
+
+    Partition决定maptask输出的数据交由哪个reducetask处理
+    默认实现：分发的key的hashvalue与reduce task个数取模

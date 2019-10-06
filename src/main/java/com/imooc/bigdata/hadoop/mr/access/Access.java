@@ -61,7 +61,10 @@ public class Access implements Writable {
 
     @Override
     public void readFields(DataInput dataInput) throws IOException {
-
+        this.phone = dataInput.readUTF();
+        this.up = dataInput.readLong();
+        this.down = dataInput.readLong();
+        this.sum = dataInput.readLong();
     }
 
     @Override
@@ -75,6 +78,11 @@ public class Access implements Writable {
     }
 
     public Access(){}
-
+    public Access(String phone, long up, long down){
+        this.phone = phone;
+        this.up = up;
+        this.down = down;
+        this.sum = up + down;
+    }
 
 }
