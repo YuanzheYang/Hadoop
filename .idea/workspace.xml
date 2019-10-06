@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5062664-234a-4610-97d5-9d08e5d89f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/input/wc.input" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountLocalApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/Access.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountCombinerLocalApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/allenyang/.Desktop.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Users/allenyang/.hello.txt.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/allenyang/Desktop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/allenyang/Documents/.CV.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/allenyang/Documents/CV" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Users/allenyang/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/._SUCCESS.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/.part-r-00000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/_SUCCESS" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/readme.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/part-r-00000" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/bigdata/hadoop/mr/wc/WordCountApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/bigdata/hadoop/mr/wc/WordCountApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/imooc/bigdata/hadoop/mr/wc/WordCountMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/imooc/bigdata/hadoop/mr/wc/WordCountMapper.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -24,10 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/hdfs/HDFSWCApp1.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="225">
+              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,13 +44,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountMapper.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.1/hadoop-common-2.6.0-cdh5.15.1.jar!/org/apache/hadoop/io/Text.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="141">
+              <caret line="186" selection-start-line="186" selection-end-line="186" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/charset/CharsetDecoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="426" selection-start-line="426" selection-end-line="426" />
             </state>
           </provider>
         </entry>
@@ -59,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+            <state relative-caret-position="468">
+              <caret line="44" column="101" selection-start-line="44" selection-start-column="101" selection-end-line="44" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,19 +86,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input/wc.input">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountCombinerLocalApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="19" selection-start-column="19" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountLocalApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+            <state relative-caret-position="375">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -95,24 +100,47 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/readme.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0-cdh5.15.1/hadoop-mapreduce-client-core-2.6.0-cdh5.15.1.jar!/org/apache/hadoop/mapred/FileInputFormat.class">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/Access.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="178">
+              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#234#235#0" expanded="true" />
+                <element signature="e#262#263#0" expanded="true" />
+                <element signature="e#304#305#0" expanded="true" />
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#365#366#0" expanded="true" />
+                <element signature="e#390#391#0" expanded="true" />
+                <element signature="e#424#425#0" expanded="true" />
+                <element signature="e#452#453#0" expanded="true" />
+                <element signature="e#481#482#0" expanded="true" />
+                <element signature="e#508#509#0" expanded="true" />
+                <element signature="e#546#547#0" expanded="true" />
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#632#633#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#698#699#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/hdfs/CaseIgnoreWordCountMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountLocalApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+            <state relative-caret-position="415">
+              <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -146,9 +174,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/wc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountReducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountLocalApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountMapper.java" />
         <option value="$PROJECT_DIR$/input/wc.input" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountCombinerLocalApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/readme.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/Access.java" />
       </list>
     </option>
   </component>
@@ -214,7 +245,17 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="wc" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="mr" type="462c0819:PsiDirectoryNode" />
+              <item name="access" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
@@ -222,11 +263,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="Users" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -263,7 +299,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.WordCountLocalApp">
+  <component name="RunManager" selected="Application.WordCountCombinerLocalApp">
     <configuration name="HDFSWCApp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.hdfs.HDFSWCApp1" />
       <module name="hadoop-train-v2" />
@@ -279,6 +315,19 @@
     </configuration>
     <configuration name="WordCountApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.mr.wc.WordCountApp" />
+      <module name="hadoop-train-v2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.imooc.bigdata.hadoop.mr.wc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCountCombinerLocalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.mr.wc.WordCountCombinerLocalApp" />
       <module name="hadoop-train-v2" />
       <extension name="coverage">
         <pattern>
@@ -319,29 +368,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSApp.listFilesRecursive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hadoop-train-v2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.imooc.bigdata.hadoop.hdfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.imooc.bigdata.hadoop.hdfs" />
-      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.hdfs.HDFSApp" />
-      <option name="METHOD_NAME" value="listFilesRecursive" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WordCountLocalApp" />
+        <item itemvalue="Application.WordCountCombinerLocalApp" />
         <item itemvalue="Application.WordCountApp" />
+        <item itemvalue="Application.WordCountLocalApp" />
         <item itemvalue="Application.HDFSWCApp1" />
         <item itemvalue="JUnit.HDFSApp.delete" />
-        <item itemvalue="JUnit.HDFSApp.listFilesRecursive" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +390,7 @@
       <updated>1568388935249</updated>
       <workItem from="1568388941955" duration="3379000" />
       <workItem from="1568863114395" duration="14803000" />
-      <workItem from="1569352923908" duration="10667000" />
+      <workItem from="1569352923908" duration="13584000" />
     </task>
     <servers />
   </component>
@@ -394,7 +427,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28849000" />
+    <option name="totallyTimeSpent" value="31766000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -555,6 +588,13 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/input/wc.input">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -565,39 +605,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/output/part-r-00000">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/wc.input">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountLocalApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        <state relative-caret-position="415">
+          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/nio/charset/CharsetDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="426" selection-start-line="426" selection-end-line="426" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.1/hadoop-common-2.6.0-cdh5.15.1.jar!/org/apache/hadoop/io/Text.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        <state relative-caret-position="225">
+          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountLocalApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="40" column="54" selection-start-line="40" selection-start-column="54" selection-end-line="40" selection-end-column="54" />
+        <state relative-caret-position="468">
+          <caret line="44" column="101" selection-start-line="44" selection-start-column="101" selection-end-line="44" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/wc/WordCountCombinerLocalApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        <state relative-caret-position="375">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/readme.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/Access.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#234#235#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#365#366#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#452#453#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#546#547#0" expanded="true" />
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#632#633#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#698#699#0" expanded="true" />
           </folding>
         </state>
       </provider>
