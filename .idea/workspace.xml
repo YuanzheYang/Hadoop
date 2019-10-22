@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f5062664-234a-4610-97d5-9d08e5d89f45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/AccessYarnApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/mr/PVStatApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f5062664-234a-4610-97d5-9d08e5d89f45" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,57 +16,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/AccessYarnApp.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/README">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+            <state relative-caret-position="90">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/README">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils/IPParser.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils/IPSeeker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="-10842" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils/LogParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/mr/PVStatApp.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/bigdata/hadoop/mr/project/utils/LogParseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="360">
+              <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#319#320#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/AccessReducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/AccessLocalApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/input/raw/trackinfo_20130721.data">
+          <provider selected="true" editor-type-id="LargeFileEditor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -143,8 +138,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/readme.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/AccessLocalYarnApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/AccessYarnApp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/README" />
         <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/mr/PVStatApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/README" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils/IPParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils/IPSeeker.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils/LogParser.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/imooc/bigdata/hadoop/mr/project/utils/LogParseTest.java" />
       </list>
     </option>
   </component>
@@ -190,11 +189,35 @@
             <path>
               <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="input" type="462c0819:PsiDirectoryNode" />
+              <item name="raw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="ip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
               <item name="output" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="output" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+              <item name="pvstat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -236,17 +259,6 @@
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
               <item name="mr" type="462c0819:PsiDirectoryNode" />
               <item name="project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="mr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
@@ -265,6 +277,27 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hadoop-train-v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hadoop-train-v2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -277,7 +310,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/input/raw" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -292,6 +325,8 @@
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils" />
+      <recent name="$PROJECT_DIR$/input/raw" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,7 +341,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AccessLocalApp">
+  <component name="RunManager" selected="JUnit.LogParseTest">
     <configuration name="AccessLocalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.mr.access.AccessLocalApp" />
       <module name="hadoop-train-v2" />
@@ -320,12 +355,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HDFSWCApp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.hdfs.HDFSWCApp1" />
+    <configuration name="PVStatApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.mr.project.mr.PVStatApp" />
       <module name="hadoop-train-v2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.bigdata.hadoop.hdfs.*" />
+          <option name="PATTERN" value="com.imooc.bigdata.hadoop.mr.project.mr.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -359,26 +394,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordCountLocalApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.mr.wc.WordCountLocalApp" />
+    <configuration name="LogParseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hadoop-train-v2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.imooc.bigdata.hadoop.mr.wc.*" />
+          <option name="PATTERN" value="com.imooc.bigdata.hadoop.mr.project.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.imooc.bigdata.hadoop.mr.project.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.imooc.bigdata.hadoop.mr.project.utils.LogParseTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LogParseTest" />
+        <item itemvalue="Application.PVStatApp" />
         <item itemvalue="Application.AccessLocalApp" />
         <item itemvalue="Application.WordCountCombinerLocalApp" />
         <item itemvalue="Application.WordCountApp" />
-        <item itemvalue="Application.WordCountLocalApp" />
-        <item itemvalue="Application.HDFSWCApp1" />
       </list>
     </recent_temporary>
   </component>
@@ -397,17 +434,13 @@
       <workItem from="1569352923908" duration="18587000" />
       <workItem from="1570580907031" duration="611000" />
       <workItem from="1571537058111" duration="500000" />
-      <workItem from="1571681863882" duration="2392000" />
+      <workItem from="1571681863882" duration="3159000" />
+      <workItem from="1571707563455" duration="3000" />
+      <workItem from="1571755100982" duration="3089000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HDFSApp_copyFromLocalBigFile - 2019.09.19 at 15h 36m 26s.xml">
-      <configuration name="HDFSApp.copyFromLocalBigFile" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="HDFSApp_copyToLocalFile - 2019.09.19 at 15h 40m 27s.xml">
-      <configuration name="HDFSApp.copyToLocalFile" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="HDFSApp_copyToLocalFile - 2019.09.19 at 15h 40m 40s.xml">
       <configuration name="HDFSApp.copyToLocalFile" configurationId="JUnit" />
     </history-entry>
@@ -432,16 +465,21 @@
     <history-entry file="HDFSApp_delete - 2019.09.22 at 15h 57m 35s.xml">
       <configuration name="HDFSApp.delete" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LogParseTest - 2019.10.22 at 11h 34m 27s.xml">
+      <configuration name="LogParseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogParseTest - 2019.10.22 at 11h 38m 12s.xml">
+      <configuration name="LogParseTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40272000" />
+    <option name="totallyTimeSpent" value="44131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4927711" visible="true" weight="0.26752505" />
-      <window_info id="Structure" order="1" sideWeight="0.5072289" side_tool="true" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48833033" visible="true" weight="0.2746781" />
+      <window_info id="Structure" order="1" sideWeight="0.51166964" side_tool="true" visible="true" weight="0.2746781" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
@@ -449,7 +487,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -701,6 +739,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.1/hadoop-common-2.6.0-cdh5.15.1.jar!/org/apache/hadoop/io/NullWritable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/AccessYarnApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/mr/PVStatApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/AccessReducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -741,33 +803,47 @@
     <entry file="file://$PROJECT_DIR$/access/input/access.log">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/access/AccessYarnApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="90">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.15.1/hadoop-common-2.6.0-cdh5.15.1.jar!/org/apache/hadoop/io/NullWritable.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils/IPParser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils/IPSeeker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
+        <state relative-caret-position="-10842" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/mr/PVStatApp.java">
+    <entry file="file://$PROJECT_DIR$/output/v1/pvstat/part-r-00000">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input/raw/trackinfo_20130721.data">
+      <provider selected="true" editor-type-id="LargeFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/imooc/bigdata/hadoop/mr/project/utils/LogParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/imooc/bigdata/hadoop/mr/project/utils/LogParseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
           </folding>
         </state>
       </provider>
